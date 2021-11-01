@@ -1,5 +1,3 @@
-
-
 def find_primes_optimized_memory(f_num):
     primes = [2]
 
@@ -15,11 +13,7 @@ def find_primes_optimized_memory(f_num):
             primes.append(i)
 
     return primes
-    
-
 
 f = int(input('Введите конечное число: '))
 res = find_primes_optimized_memory(f)
-
 print(res)
-
